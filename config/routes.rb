@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'contact/new'
   root 'static_pages#landing'
   get 'static_pages/home'
-  get 'static_pages/contact'
+  get 'static_pages/faq'
   
   resources :portfolios do
     resources :flashs
