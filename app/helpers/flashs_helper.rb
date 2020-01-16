@@ -1,0 +1,2 @@
+module FlashsHelper
+end
