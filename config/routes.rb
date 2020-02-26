@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'static_pages#landing'
   get 'static_pages/home'
   get 'static_pages/faq'
+  get 'static_pages/healing'
   
   resources :portfolios do
     resources :flashs
